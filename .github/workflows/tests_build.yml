@@ -24,7 +24,7 @@ jobs:
           - {'python': '3.8', 'latest': false}
           - {'python': '3.9', 'latest': false}
           - {'python': '3.10', 'latest': false}
-          - {'python': '3.11', 'latest': true}
+          - {'python': '3.11', 'latest': false}
     steps:
       - name: 'Checkout repository'
         uses: actions/checkout@v4
