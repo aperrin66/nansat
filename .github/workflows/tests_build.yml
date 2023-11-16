@@ -26,6 +26,12 @@ jobs:
           - {'python': '3.10', 'latest': false}
           - {'python': '3.11', 'latest': true}
     steps:
+      - name: debug
+        run: |
+          echo "github.ref_type: ${{ github.ref_type }}"
+          echo "github.ref_name: ${{ github.ref_name }}"
+          echo "github.event.action: ${{github.event.action}}"
+          echo "github.event.release.tag_name: ${{github.event.release.tag_name}}"
       - name: 'Checkout repository'
         uses: actions/checkout@v4
 
