@@ -17,7 +17,7 @@ import os
 
 import_error_msg = "Nansat requires %s, which should be installed separately"
 
-NAME                = 'nansat'
+NAME                = 'nansat-test'
 MAINTAINER          = "Nansat Developers"
 MAINTAINER_EMAIL    = "nansat-dev@googlegroups.com"
 DESCRIPTION         = "A scientist friendly Python toolbox for processing 2D satellite Earth observation data"
